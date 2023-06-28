@@ -1,0 +1,287 @@
+:root{
+    --mainblack:black;
+    --maingray:rgb(57, 57, 57);
+    --mainpink:rgb(255, 99, 125);
+    --mainwhite:rgb(240, 240, 240);
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  *,::before,::after{
+    box-sizing: inherit;
+  }
+  html{
+box-sizing: border-box;
+
+font-size: 62.5%;
+  }
+body{
+    font-weight: bold;
+    color: var(--mainwhite);
+    background-color: var(--maingray);
+}
+#navbar{
+display: flex;
+justify-content: right;
+
+    width: 100vw;
+    height: 08vh;
+    background-color: var(--mainpink);
+    position: fixed;
+    z-index: 10;
+    box-shadow: 1px 2px 4px rgb(82, 2, 33);
+}
+
+#navbar ul{
+display: flex;
+margin-right: 5em;
+list-style-type: none;
+align-items: center;
+}
+
+
+
+nav#navbar a{
+  
+    text-decoration: none;
+    font-size: 3em;
+padding: 2rem;
+
+  font-family: monospace;
+    font-weight: bold;
+    color: var(--mainwhite);
+ 
+}
+
+nav#navbar a:hover{
+color: rgb(0, 0, 0);
+}
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  width: 100%;
+height: 100vh;
+   background-image: linear-gradient(var(--maingray) 30%,var(--mainblack));
+   
+}
+#welcome-section > h1{
+    font-size: 9em;
+    display: flex;
+    justify-content: center;
+}
+
+#welcome-section > h3{
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+.ani{
+width: 8em;
+height: 8em;
+background-color: rgb(3, 24, 255);
+animation-name: eye;
+animation-duration: 5s;
+animation-delay: 1s;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+position: relative;
+left: 45%;
+top: 33%;
+}
+
+.eye1{
+    position: relative;
+    top: 5px;
+    left: 2px;
+    width: 1em;
+    height: 1em;
+    background-color: black;
+}
+.eye2{
+    width: 1em;
+    height: 1em;
+    background-color: black;
+  position: relative;
+  left: 6em;
+  
+}
+
+@keyframes eye{
+    0%{
+background-color: rgb(3, 24, 255);
+position: relative;
+left: 0%;
+
+    }
+
+    100%{
+        background-color: rgb(255, 255, 255);
+        position: relative;
+        left: 95%;
+        
+            }  
+
+}
+
+#projects{
+    background-image: linear-gradient(white 5%,black 20%);
+    padding: 10rem 2rem;
+    text-align: center;
+}
+
+#projects h2{
+    font-family: Roboto Mono;
+    font-size: 6em;
+    
+}
+hr{
+    width:40%;
+    margin:0 auto;
+    border-width: 2px;
+    border-color: var(--mainwhite);
+    margin-bottom: 4rem;
+    
+}
+.sav{
+  margin-bottom: 6rem;
+background-color: var(--mainblack);
+padding: 2em;
+}
+.project-tile{
+  width: 100%;
+  max-width: 1360px;
+  display: grid;
+grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+gap: 3rem;
+margin: 0 auto;
+margin-bottom: 6rem;
+
+padding-right: 2rem;
+
+}
+.project-tile a{
+background-color: rgb(33, 33, 33);
+text-decoration: none;
+border-radius: 8px;
+box-shadow: 1px 1px 3px white;
+}
+.project-tile img{
+  height: 80vh;
+  width: 100%;
+  padding: 2em;
+ object-fit: cover;
+}
+
+.project-tile p{
+font-size: 3em;
+padding: 2rem;
+margin-bottom: 2rem;
+color: var(--mainwhite);
+font-family: monospace;
+text-transform: capitalize;
+
+}
+
+.project-tile p:hover{
+  transform: rotate(180deg);
+ transition-property: all;
+ transition-duration: 1s;
+ transition-delay: 0.5s;
+ transition-timing-function: ease-in;
+
+}
+
+
+
+.project-tile img:hover{
+  transform: scale(0.9);
+  transition: 0.3s all ease-in;
+}
+
+
+#contract{
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background-color: var(--maingray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+
+}
+
+#contract > h1{
+  font-size: 10em;
+  font-family: Roboto Mono;
+}
+#contract > p{
+  font-size: 6em;
+  font-family: 'kanit';
+}
+
+#contract-links{
+  display: flex;
+justify-content: center;
+  flex-wrap: wrap;
+margin-top: 4em;
+}
+
+#contract-links>a{
+  font-size: 3em;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: var(--mainwhite);
+  text-shadow: 3px 1.5px 1px black;
+
+}
+
+#contract-links>a:hover{
+transform: translateY(1.3rem);
+transition-property: all;
+transition-duration: 0.5s;
+transition-timing-function:ease-out;
+text-shadow: 3px 1.5px 1px var(--mainpink);
+}
+
+@media (max-width:1050px) {
+
+  #welcome-section > h1{
+    font-size:6em ;
+    padding: 0 2em;
+  }
+  #welcome-section > h3{
+    font-size: 3em;
+  }
+  #contract > h1{
+    font-size: 8em;
+    padding: 0 2em;
+  }
+}
+
+@media screen and (max-width:638px) {
+ 
+  div.ani{
+   position: relative;
+   top: 21rem;
+  }
+  #contract-links > a{
+  
+    font-size: 2.2em;
+
+  }
+  #contract > h1{
+    font-size: 6em;
+    padding-top: 2em;
+  }
+
+  #contract > p{
+    font-size: 3em;
+  }
+}
