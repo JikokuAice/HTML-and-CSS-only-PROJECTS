@@ -1,4 +1,3 @@
-# projects
- projects i created as i go on.......
+# FONTEND MAGIC🧚🏻
+ projects I created as I went on.......🚶‍♂️‍➡️
 
-code is inside folder (pixelforge).........
