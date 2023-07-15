@@ -298,3 +298,48 @@
     transform: translateX(300%);
    
   }
+
+  .box5 p{
+    display: flex;
+    flex-direction:row;
+      align-self: flex-end;
+    padding-right: 20px;
+     position: relative;
+     bottom: 38%;
+  }
+  
+  .togle{
+    height: 40px;
+    width: 85px;
+    background-color: rgb(204, 204, 204);
+    border-radius: 20px;
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+  }
+  
+  .togle::before{
+    position: absolute;
+    content: "";
+    height: 32px;
+    width: 32px;
+    background-color: rgb(129, 129, 129);
+    border-radius: 50%;
+    margin: 4px;
+    transition: 0.3s ease-in;
+  }
+  
+  .box5 [type="checkbox"]:checked + .togle{
+  background-color: rgb(4, 1, 20);
+  }
+  
+  .box5 [type="checkbox"]:checked + .togle::before{
+    background-color:lightskyblue;
+    transform: translateX(44px);
+  }
+  
+  .box5 input[type="checkbox"]{
+    display: none;
+  }
+
+
