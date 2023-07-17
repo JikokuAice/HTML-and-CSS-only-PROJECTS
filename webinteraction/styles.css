@@ -200,6 +200,7 @@
     line-height: 30px;
   padding-left: 0;
   width: 0;
+  transition: 0.15s ease-in;
   }
   
   .seabox:hover > .seatxt{
