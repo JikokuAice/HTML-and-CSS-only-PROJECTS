@@ -312,11 +312,12 @@
   .togle{
     height: 40px;
     width: 85px;
-    background-color: rgb(204, 204, 204);
+    background-color: rgb(122, 208, 241);
     border-radius: 20px;
     cursor: pointer;
     position: relative;
     transition: 0.3s;
+    
   }
   
   .togle::before{
@@ -324,20 +325,23 @@
     content: "";
     height: 32px;
     width: 32px;
-    background-color: rgb(129, 129, 129);
+    background-color:rgb(255, 222, 4);
     border-radius: 50%;
     margin: 4px;
     transition: 0.3s ease-in;
+   
   }
   
   .box5 [type="checkbox"]:checked + .togle{
   background-color: rgb(4, 1, 20);
+  
   }
   
   .box5 [type="checkbox"]:checked + .togle::before{
-    background-color:lightskyblue;
+    background-color:lightgoldenrodyellow;
     transform: translateX(44px);
   }
+  
   
   .box5 input[type="checkbox"]{
     display: none;
