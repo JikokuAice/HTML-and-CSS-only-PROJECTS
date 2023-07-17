@@ -343,4 +343,142 @@
     display: none;
   }
 
+  .box6 p{
+    display: flex;
+    flex-direction:row;
+      align-self: flex-end;
+    padding-right: 20px;
+     position: relative;
+     bottom: 38%;
+  }
+  .HOVER > span{
+  padding:5px;
+  box-shadow:inset 0px 0px 0px 0px black;
+  font-size: 32px;
+  font-family:Raleway;
+  font-weight:bold;
+  position: relative;
+  }
+  .HOVER:hover span {
+  box-shadow: inset -200px 0px 0px 0px black;
+  transition: all 0.3s ease-in;
+  
+  }
+  .HOVER:hover i{
+  transform: translateX(-150px);
+  color: rgb(28, 107, 243);
+   transition: 0.3s;
+  }
+  .HOVER span a{
+    text-decoration: none;
+   color: black;
+  
+  }
+  .HOVER:hover a{
+  color: white;
+  transition: 0.1s;
+  }
+  
+  
+  .seven{
+    display: flex;
+    flex-direction:row;
+      align-self: flex-end;
+    padding-right: 20px;
+     position: relative;
+     bottom: 38%; 
+  }
+  
+  .pop-icons{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 25px;
+  }
+  #pop-icons-icons{
+    color: white;
+    display: flex;
+    justify-content: center;
+   line-height: 60px;
+  }
+  
+  .social-icon1{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 25px;
+    margin: 5px;
+  
+  }
+  .social-icon1>a{
+    color: white;
+    display: flex;
+    justify-content: center;
+   text-decoration: none;
+   margin-top: 17px;
+  }
+  .social-icon2{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 25px;
+    margin: 5px;
+  }
+  .social-icon2>a{
+    color: white;
+    display: flex;
+    justify-content: center;
+   text-decoration: none;
+   margin-top: 17px;
+  }
+  .social-icon3{
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 25px;
+    margin: 5px;
+  }
+  .social-icon3>a{
+    color: white;
+    display: flex;
+    justify-content: center;
+   text-decoration: none;
+   margin-top: 17px;
+  }
+  .social-icon4 {
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 50%;
+    font-size: 25px;
+    margin: 5px;
+  }
+  .social-icon4>a{
+    color: white;
+    display: flex;
+    justify-content: center;
+   text-decoration: none;
+   margin-top: 17px;
+  }
+  
+  .box8 p{
+    display: flex;
+    flex-direction:row;
+      align-self: flex-end;
+    padding-right: 20px;
+     position: relative;
+     bottom: 38%;
+  }
+  .box9 p{
+    display: flex;
+    flex-direction:row;
+      align-self: flex-end;
+    padding-right: 20px;
+     position: relative;
+     bottom: 38%;
+  }
 
