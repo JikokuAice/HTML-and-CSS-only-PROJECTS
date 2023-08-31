@@ -486,3 +486,43 @@
      bottom: 38%;
   }
 
+
+.box7 {
+  display: flex;
+    flex-direction:row;
+     align-items: center; 
+     justify-content: space-evenly;
+}
+#curid{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  align-items: center;
+ padding: 10px;
+ background-color: rgb(255, 255, 255);
+}
+
+#curid ul{
+  display: flex;
+  flex-direction: row;
+list-style: none;
+width: 300px;
+scroll-behavior: smooth;
+padding: 0;
+margin: 0;
+margin-inline: 10px;
+overflow: hidden;
+}
+
+#curid img{
+  width: 150px;
+display: block;
+}
+#curid button{
+  background-color: black;
+  color: white;
+}
+#curid button:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
