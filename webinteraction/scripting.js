@@ -9,10 +9,10 @@
 
     // Add click event listener to the left button
     leftButton.addEventListener('click', () => {
-        ul.scrollLeft -= 150;
+        ul.scrollLeft -= 300;
     });
 
     // Add click event listener to the right button
     rightButton.addEventListener('click', () => {
-        ul.scrollLeft += 150;
+        ul.scrollLeft += 300;
     });
