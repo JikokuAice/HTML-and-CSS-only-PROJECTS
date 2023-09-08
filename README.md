@@ -1,3 +1,3 @@
 # FONTEND MAGIC🧚🏻
- projects I created as I went on.......🚶‍♂️‍➡️
+project i kept updating in few months
 
